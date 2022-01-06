@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    h1 {
+      text-align: center;
+      color: hsl(186, 14%, 43%);
+    }
+
+    body {
+      background-color: hsl(185, 41%, 84%);
+      font-family: space mono;
+    }
+
+    .cont1 {
+      background-color: hsl(0, 0%, 100%);
+      background-color: hsl(0, 0%, 100%);
+      margin-top: 40px;
+      margin-bottom: 40px;
+      margin-left: 150px;
+      margin-right: 150px;
+      padding: 5px 35px 5px 35px;
+      border-radius: 20px;
+      box-shadow: hsl(184, 14%, 56%) 10px;
+      color: hsl(186, 14%, 43%);
+    }
+
+    .bill input {
+      background-color: hsl(185, 41%, 84%);
+      border-radius: 3px;
+    }
+
+    button {
+      background-color: hsl(183, 100%, 15%);
+      border-radius: 5px;
+      margin: 5px 5px 5px 5px;
+      padding: 10px 45px 10px 45px;
+      color: hsl(0, 0%, 100%);
+    }
+
+    button:hover {
+      background-color: hsl(172, 67%, 45%);
+    }
+
+    .people{
+      margin-left: 150px;
+      margin-right: 150px;
+      padding: 5px 35px 5px 35px;
+      border-radius: 20px;
+      box-shadow: hsl(184, 14%, 56%) 10px;
+      color: hsl(186, 14%, 43%);
+      float: right;
+    }
+    .people p{
+      float: right;
+      margin-top: -300px;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <h1>SPLI<br>TTER</h1>
+  <div class="cont1">
+    <div class="box1">
+      <h2> Bill</h2>
+      <div class="bill">
+        <input type="text" placeholder="$">
+      </div>
+      <h2>Select Tip %</h2>
+      <div class="tip">
+        <button type="submit" style="padding-right: 52px;">5%</button>
+        <button type="submit">10%</button>
+        <button type="submit" style="padding:10px 45px 10px 62px;">15%</button>
+        <br>
+        <button type="submit">25%</button>
+        <button type="submit">50%</button>
+        <button type="submit">Custom</button>
+      </div>
+      
+        <h2 style="margin-bottom: 13px;">Number of People</h2>
+        <button type="submit" aria-placeholder="" style=" padding:18px 90px 18px 90px; background-color: aliceblue;"><i class="fas fa-user"></i></button>
+        <div class="cont2" style="background-color: hsl(183, 100%, 15%); padding: 10px 100px 0px 100px; float: right; margin-top: -300px; border-radius: 10px;"> 
+        
+          <p>Tip Amount<br>/ person</p><input type="text" style="background-color: hsl(183, 100%, 15%); float: right; margin-top:-50px; padding: 5px 5px 5px 5px;">
+          <p>Total<br>/ person</p><input type="text" style="background-color: hsl(183, 100%, 15%); float: right;margin-top:-50px; padding: 5px 5px 5px 5px;">
+        <div class="reset">
+          <button type="submit" style="background-color:hsl(172, 67%, 45%); margin:80px;">Reset</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Sneha Chaturvedi</a>.
+  </div>
+</body>
+
+</html>
